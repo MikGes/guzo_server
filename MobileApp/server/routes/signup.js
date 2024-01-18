@@ -40,7 +40,7 @@ const sendEmailVerification = async (email,verifyToken)=>{
         from:"mikiyasgetnet2@gmail.com",
         to:email,
         subject:"Email Verification",
-        text:`Please click this link to verify your account: http://192.168.1.5:4000/verify/${verifyToken}`
+        text:`Please click this link to verify your account: https://guzoserver.onrender.com/verify/${verifyToken}`
     }
     //sending the email
     try {
